@@ -4,6 +4,11 @@ Reproducible Research Project
 
 ### Load the activity data, and take a look at the first few rows.
 
+```{r opts, echo = FALSE}
+knitr::opts_chunk$set(
+  fig.path = "/Users/Yun/Desktop/DS/ReproducibleResearch/figures"
+)
+```
 ```{r}
 df <- read.csv("/Users/Yun/Desktop/DS/ReproducibleResearch/activity.csv")
 head(df)
